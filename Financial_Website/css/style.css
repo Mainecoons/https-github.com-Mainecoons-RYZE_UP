@@ -1,0 +1,131 @@
+body{
+  font-family: Arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0;
+  background-color:#E0E0E0;
+}
+
+header{
+  border-bottom: solid;
+  color: black;
+  background-color:
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px
+
+}
+
+.container nav ul a{
+padding: 0 2rem;
+margin-top: 2rem;
+text-decoration: none;
+border: 2px solid;
+background-color: white;
+color: black;
+
+
+}
+
+h1 {
+
+  text-align: center;
+
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+h4{
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.classes{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+.warrior{
+  width: 50%;
+  max-height: 40rem;
+  border:solid;
+}
+.archer{
+  width: 50%;
+  max-height: 40rem;
+}
+.mage{
+  width: 50%;
+  max-height: 40rem;
+}
+.bushido{
+  width: 50%;
+  max-height: 40rem;
+}
+.class-button{
+  font-size: 1.5rem;
+  padding: 1.5rem 2.1rem;
+  text-transform: uppercase;
+  border: solid;
+  background-color: #B22222;
+  color: white;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.class-button:hover{
+  opacity: 0.9;
+}
+
+.Returnbutton{
+  font-size: 1.5rem;
+  padding: 1.5rem 2.1rem;
+  text-transform: uppercase;
+  border: solid;
+  background-color: #B22222;
+  color: white;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+.classes p{
+  width: 50%;
+}
+
+.Attackanddefense{
+  border: solid;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-spacing: 0;
+  background-color: white;
+
+
+}
+
+
+
+
+@media(max-width 2000px)
